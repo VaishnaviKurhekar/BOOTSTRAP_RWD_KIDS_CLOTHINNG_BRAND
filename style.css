@@ -1,0 +1,226 @@
+
+body {
+  padding-top: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffafc;
+  color: #333;
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+}
+.navbar .nav-link,
+.nav-icon {
+  color: #333 !important;
+  font-weight: 500;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active,
+.nav-icon:hover {
+  color: #000 !important;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%) translateX(-50px);
+  z-index: 2;
+  text-align: left;
+  color: #6a1b9a;
+  opacity: 0;
+  transition: all 0.8s ease;
+  max-width: 450px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+.carousel-caption h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.carousel-caption p {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #c2185b;
+}
+.btn-pastel {
+  background-color: #ffd54f;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 0.4rem 1.2rem;
+  transition: background 0.3s ease;
+}
+.btn-pastel:hover {
+  background-color: #ffc107;
+}
+
+
+.bg-pastel-light {
+  background-color: #fff0f5;
+}
+
+
+.category-card img,
+.products-card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.category-card:hover img,
+.products-card:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.category-card .card-title,
+.products-card .card-title {
+  font-weight: 600;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.products-card .badge {
+  border-radius: 12px;
+  font-size: 0.8rem;
+  padding: 0.3em 0.6em;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.feature-card {
+  border-radius: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.feature-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.feature-card i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.feature-card:hover i {
+  transform: scale(1.2) rotate(-5deg);
+  color: #d63384;
+}
+
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#about p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+#about .btn-pastel {
+  background-color: #ffb6c1;
+  color: #fff;
+  border-radius: 25px;
+  padding: 8px 20px;
+}
+#about .btn-pastel:hover {
+  background-color: #d63384;
+}
+
+
+#testimonials {
+  background: #ffe6f0;
+  border-top: 2px solid #f8bbd0;
+  border-bottom: 2px solid #f8bbd0;
+}
+#testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+#testimonials p.lead {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+}
+#testimonials h6 {
+  color: #6a1b9a;
+  font-weight: 600;
+}
+#testimonials .carousel-control-prev-icon,
+#testimonials .carousel-control-next-icon {
+  filter: invert(50%) sepia(30%) saturate(200%) hue-rotate(300deg);
+}
+
+.pagination .page-link {
+  border-radius: 50%;
+  color: #6a1b9a;
+}
+.pagination .page-item.active .page-link {
+  background-color: #d63384;
+  border-color: #d63384;
+  color: #fff;
+}
+.pagination .page-link:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+.footer .social-icons a {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #6a1b9a;
+  margin-right: 12px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.footer .social-icons a:hover {
+  color: #ffc107;
+  transform: rotate(-10deg) scale(1.3);
+}
+
+
+@media (min-width: 768px) {
+  .category-card img,
+  .products-card img {
+    height: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-slide {
+    height: 85vh;
+  }
+  .carousel-caption h2 {
+    font-size: 2.4rem;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+}
+.video-container {
+  width: 100%;
+  max-width: 500px;  
+  height: 500px;     
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.map-container {
+  width: 100%;
+  max-width: 500px; 
+  height: 300px;    
+  overflow: hidden;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+

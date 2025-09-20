@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LittleStars - About Us</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+ <link rel="icon" href="./images/littlestar-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg shadow-sm fixed-top bg-rainbow">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="index.html">
+         <img src="./images/littlestar-logo.png" alt="LittleStars Logo" width="120" height="70" class="d-inline-block align-text-top me-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <form class="d-flex me-3">
+          <input class="form-control rounded-pill" type="search" placeholder="Search...">
+        </form>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="nav-icon"><i class="far fa-heart"></i></a>
+          <a href="#" class="nav-icon"><i class="fas fa-user"></i></a>
+          <a href="#" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section class="page-header text-white d-flex align-items-center" style="background: url('./images/hero_img2.webp') center/cover no-repeat; height: 40vh;">
+    <div class="container text-center">
+      <h1 class="fw-bold mb-3" style="text-shadow: 1px 1px 5px rgba(0,0,0,0.6);">About LittleStars</h1>
+      <p style="text-shadow: 1px 1px 4px rgba(0,0,0,0.5);">Bringing joyful, stylish, and comfy kidswear since 2020</p>
+    </div>
+  </section>
+
+
+  <section id="about" class="py-5 bg-pastel-light">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-md-6">
+          <img src="./images/about1.webp" alt="About LittleStars" class="img-fluid rounded-4 shadow-sm" style="width: 500px; height: 500px;">
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+          <h2 style="color:#d63384;">Who We Are</h2>
+          <p>At LittleStars, we believe every child deserves vibrant, playful, and comfortable clothing. Our mission is to combine fun designs, high-quality fabrics, and trendy styles that kids love.</p>
+          <p>We curate our collections carefully, focusing on pastel colors, playful patterns, and practical designs for everyday adventures. Your little stars deserve nothing less!</p>
+          <a href="products.html" class="btn btn-pastel">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="why-us" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#6a1b9a;">Why Choose Us</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4">
+            <i class="fas fa-tshirt fa-3x mb-3" style="color:#d63384;"></i>
+            <h5>High Quality</h5>
+            <p>Soft fabrics and durable materials designed for kids' comfort and safety.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4">
+            <i class="fas fa-palette fa-3x mb-3" style="color:#d63384;"></i>
+            <h5>Fun Designs</h5>
+            <p>Playful patterns, vibrant colors, and trendy styles kids adore.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card text-center p-4">
+            <i class="fas fa-shipping-fast fa-3x mb-3" style="color:#d63384;"></i>
+            <h5>Fast Delivery</h5>
+            <p>Quick and reliable shipping so your little stars can enjoy their outfits sooner.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#6a1b9a;">What Parents Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+
+          <div class="carousel-item active">
+            <p class="lead">"LittleStars outfits are just perfect! My daughter loves the colors and the fit is amazing."</p>
+            <h6>- Priya R.</h6>
+          </div>
+
+          <div class="carousel-item">
+            <p class="lead">"Fantastic quality and adorable designs. I always recommend LittleStars to my friends."</p>
+            <h6>- Rohan S.</h6>
+          </div>
+
+          <div class="carousel-item">
+            <p class="lead">"Great service and trendy clothes for my little one. Shopping was a breeze!"</p>
+            <h6>- Anjali K.</h6>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <nav aria-label="Product page navigation" class="d-flex justify-content-center mt-5">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="products.html">Prev</a></li>
+          <li class="page-item"><a class="page-link" href="index1.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="products.html">2</a></li>
+          <li class="page-item"><a class="page-link active" href="about.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="contact.html">Next</a></li>
+        </ul>
+      </nav>
+
+
+  
+  <footer class="footer py-4 bg-dark text-light text-center">
+    <div class="container">
+      <small>&copy; 2025 LittleStars. All rights reserved.</small>
+    </div>
+  </footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

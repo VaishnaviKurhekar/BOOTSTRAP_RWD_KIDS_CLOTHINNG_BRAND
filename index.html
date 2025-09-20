@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LittleStars - Kids Fashion Store</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="./images/littlestar-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="#">
+        <img src="./images/littlestar-logo.png" alt="LittleStars Logo" width="120" height="70"
+          class="d-inline-block align-text-top me-2">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Girls</a></li>
+              <li><a class="dropdown-item" href="#">Boys</a></li>
+              <li><a class="dropdown-item" href="#">Babies</a></li>
+              <li><a class="dropdown-item" href="#">Accessories</a></li>
+            </ul>
+          </li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+
+        <form class="d-flex me-3">
+          <input class="form-control rounded-pill" type="search" placeholder="Search kidswear...">
+        </form>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="nav-icon"><i class="far fa-heart"></i></a>
+          <a href="#" class="nav-icon"><i class="fas fa-user"></i></a>
+          <a href="#" class="nav-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav> <!-- End of navbar -->
+
+  <section id="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active position-relative">
+          <img
+            src="./images/enjoying-lovely-music-through-blue-head-hones-cute-little-girl-with-long-brunette-hair-isolated-pink-background-fashionable-child-tulle-skirt-expressing-true-positive-emotions-camera.jpg"
+            class="d-block w-100 hero-slide" alt="Shop Kids Fashion">
+
+          <div class="carousel-overlay"></div>
+
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h2>Trendy & Comfy</h2>
+            <p>Discover the latest kidswear for every occasion</p>
+            <a href="products.html" class="btn btn-lg btn-pastel">Shop Now</a>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="./images/children-expressions.jpg" class="d-block w-100 hero-slide" alt="Colorful Outfits">
+          <div class="carousel-overlay"></div>
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h2>Playful Styles</h2>
+            <p>Bright colors and cheerful outfits for little stars</p>
+            <a href="products.html" class="btn btn-lg btn-pastel">Explore</a>
+          </div>
+        </div>
+
+
+        <div class="carousel-item position-relative">
+          <img
+            src="./images/enjoying-lovely-music-through-blue-head-hones-cute-little-girl-with-long-brunette-hair-isolated-pink-background-fashionable-child-tulle-skirt-expressing-true-positive-emotions-camera.jpg"
+            class="d-block w-100 hero-slide" alt="Season Collection">
+          <div class="carousel-overlay"></div>
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h2>New Season Arrivals</h2>
+            <p>Fresh pastel looks for every season</p>
+            <a href="products.html" class="btn btn-lg btn-pastel">Shop Collection</a>
+          </div>
+        </div>
+
+      </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+ <section id="categories" class="py-5 bg-pastel-light">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#d63384;">Festive Spotlight</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4 col-sm-6 ">
+          <div class="card category-card text-center border-0 shadow-sm">
+            <img src="./images/ethnic.jpg" class="card-img-top rounded-3" alt="Ethnic Wear">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#6a1b9a;">Ethnic Wear</h5>
+            </div>
+          </div>
+        </div>
+
+<div class="col-md-4 col-sm-6">
+          <div class="card category-card text-center border-0 shadow-sm">
+            <img src="./images/party_wear.jpg" class="card-img-top rounded-3" alt="Casual Wear">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#6a1b9a;">Casual Wear</h5>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-6">
+          <div class="card category-card text-center border-0 shadow-sm">
+            <img src="./images/warm_core.jpg" class="card-img-top rounded-3" alt="Party Wear">
+            <div class="card-body">
+              <h5 class="card-title" style="color:#6a1b9a;">Party Wear</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- end of  categories-->
+
+
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#d63384;">Best Sellers</h2>
+      <div class="row g-4">
+ <div class="col-12 col-md-4 col-xl-3">
+          <div class="card products-card text-center border-0 shadow-sm">
+            <img src="./images/lehenga.webp" class="card-img-top rounded-3" alt="Ethnic Dress">
+            <div class="card-body">
+              <h6 class="card-title" style="color:#6a1b9a;">Ethnic Dress</h6>
+              <p class="text-muted">Starting at₹1,299</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-xl-3">
+          <div class="card products-card text-center border-0 shadow-sm">
+            <img src="./images/casuals.webp" class="card-img-top rounded-3" alt="Casual Outfit">
+            <div class="card-body">
+              <h6 class="card-title" style="color:#6a1b9a;">Casual Outfit</h6>
+              <p class="text-muted">Starting at ₹999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-xl-3">
+          <div class="card products-card text-center border-0 shadow-sm">
+            <img src="./images/girls_fancy.webp" class="card-img-top rounded-3" alt="Party Dress">
+            <div class="card-body">
+              <h6 class="card-title" style="color:#6a1b9a;">Party Dress</h6>
+              <p class="text-muted">Starting at ₹799</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4 col-xl-3">
+          <div class="card products-card text-center border-0 shadow-sm">
+            <img src="./images/infant.jpg" class="card-img-top rounded-3" alt="Winter Wear">
+            <div class="card-body">
+              <h6 class="card-title" style="color:#6a1b9a;">Winter Wear</h6>
+              <p class="text-muted">Starting at₹899</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- end of featured products -->
+
+ <!-- Promo Section -->
+<section id="promo" class="py-5 bg-pastel-light">
+  <div class="container">
+    <!-- Row for Title + Text -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h3 style="color:#d63384;">Trendy Styles for Little Stars</h3>
+        <p class="text-muted">
+          Discover our cutest collections and watch them come alive with comfort and style.
+        </p>
+        <a href="products.html" class="btn btn-pastel mt-2">Shop Now</a>
+      </div>
+    </div>
+
+    <!-- Row for Video + Image -->
+    <div class="row align-items-start g-4">
+      
+      <!-- Left side: Video -->
+      <div class="col-12 col-md-6 d-flex justify-content-center">
+        <div class="video-container shadow-sm rounded-3">
+          <video autoplay muted loop playsinline class="rounded-3" 
+                 style="width:500px; height:500px; object-fit:cover;">
+            <source src="./images/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Right side: Image -->
+      <div class="col-12 col-md-6 d-flex justify-content-center">
+        <img src="./images/about2.webp" 
+             class="img-fluid rounded-3 shadow-sm" 
+             alt="Kids Fashion" 
+             style="width:500px; height:500px; object-fit:cover;">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="why-choose-us" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#d63384;">Why Choose LittleStars?</h2>
+      <div class="row g-4">
+
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="card feature-card border-0 h-100" style="background-color:#ffe0eb;">
+            <div class="card-body">
+              <i class="fas fa-tshirt fa-3x mb-3" style="color:#ff4d6d;"></i>
+              <h5 class="fw-bold">Trendy Kidswear</h5>
+              <p class="small">Stylish designs that kids love, comfy enough for every day.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="card feature-card border-0 h-100" style="background-color:#f3e8ff;">
+            <div class="card-body">
+              <i class="fas fa-leaf fa-3x mb-3" style="color:#6a1b9a;"></i>
+              <h5 class="fw-bold">Premium Quality</h5>
+              <p class="small">Soft, safe fabrics that are gentle on kids’ skin.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="card feature-card border-0 h-100" style="background-color:#fff5e6;">
+            <div class="card-body">
+              <i class="fas fa-truck fa-3x mb-3" style="color:#ff9800;"></i>
+              <h5 class="fw-bold">Fast Delivery</h5>
+              <p class="small">Quick and reliable delivery right to your doorstep.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <div class="card feature-card border-0 h-100" style="background-color:#e6faff;">
+            <div class="card-body">
+              <i class="fas fa-smile fa-3x mb-3" style="color:#00bcd4;"></i>
+              <h5 class="fw-bold">Happy Customers</h5>
+              <p class="small">Trusted by thousands of parents across India.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="./images/about1.webp" class="img-fluid rounded-3 shadow-sm" style="height:500px; width:500px;"
+            alt="About LittleStars">
+        </div>
+
+        <div class="col-md-6">
+          <h2 class="fw-bold" style="color:#d63384;">About LittleStars</h2>
+          <p class="text-muted">
+            At LittleStars, we believe every child deserves to shine.
+            From playful everyday outfits to stylish festive wear, our collection is crafted with love, comfort, and
+            care.
+            We bring you pastel-perfect designs that keep your little ones happy and trendy!
+          </p>
+          <a href="about.html" class="btn btn-pastel">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Us -->
+
+
+  <section id="testimonials" class="py-5 bg-pastel-light">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color:#6a1b9a;">What Parents Say</h2>
+
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+
+          <div class="carousel-item active">
+            <div class="text-center">
+              <p class="lead fst-italic">"LittleStars has the cutest collection! My daughter loves her new dress."</p>
+              <h6 class="fw-bold mt-3">– Priya Sharma</h6>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="text-center">
+              <p class="lead fst-italic">"Affordable and stylish kidswear. The quality is excellent too!"</p>
+              <h6 class="fw-bold mt-3">– Rohan Mehta</h6>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="text-center">
+              <p class="lead fst-italic">"Perfect festive outfits! My kids looked amazing during Diwali."</p>
+              <h6 class="fw-bold mt-3">– Neha Kapoor</h6>
+            </div>
+          </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonials -->
+  <section class="container-fluid my-5">
+    <section class="row ">
+      <div class="col-12">
+        <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link disabled" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link active" href="index.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="products.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="about.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="contact.html">4</a></li>
+            <li class="page-item"><a class="page-link" href="products.html">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </section>
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light pt-5 text-center">
+    <div class="container">
+
+      <div class="row">
+
+
+        <div class="col-md-4 mb-4">
+          <h3 class="fw-bold" style="color:#ffc107;">LittleStars</h3>
+          <p class="small">
+            Your one-stop kids fashion store.
+            From playful everyday looks to festive outfits,
+            we bring comfort, quality, and smiles to your little stars.
+          </p>
+          <div class="social-icons mt-3">
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-light me-3 fs-5"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light fs-5"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-uppercase mb-3">Shop</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-light text-decoration-none">Girls</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Boys</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Babies</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Accessories</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-uppercase mb-3">Help</h6>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-light text-decoration-none">FAQ</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Returns</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Shipping</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Track Order</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-uppercase mb-3">Company</h6>
+          <ul class="list-unstyled small">
+            <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+            <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Careers</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mb-4">
+          <h6 class="fw-bold text-uppercase mb-3">Newsletter</h6>
+          <form class="d-flex">
+            <input type="email" class="form-control form-control-sm rounded-start-pill" placeholder="Your email">
+            <button class="btn btn-warning btn-sm rounded-end-pill" type="submit">Go</button>
+          </form>
+        </div>
+
+      </div>
+
+
+      <hr class="border-secondary">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center small">
+        <p class="mb-2 mb-md-0">&copy; 2025 LittleStars. All rights reserved.</p>
+        <div>
+          <a href="#" class="text-light text-decoration-none me-3">Terms of Service</a>
+          <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+        </div>
+
+      </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
