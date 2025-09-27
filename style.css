@@ -153,19 +153,7 @@ body {
   filter: invert(50%) sepia(30%) saturate(200%) hue-rotate(300deg);
 }
 
-.pagination .page-link {
-  border-radius: 50%;
-  color: #6a1b9a;
-}
-.pagination .page-item.active .page-link {
-  background-color: #d63384;
-  border-color: #d63384;
-  color: #fff;
-}
-.pagination .page-link:hover {
-  background-color: #ffc107;
-  color: #fff;
-}
+
 .footer .social-icons a {
   display: inline-block;
   font-size: 1.4rem;
